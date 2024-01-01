@@ -50,6 +50,8 @@ def check_winner(myl):
             return myl[0]
           if myl[2] == myl[4] == myl[6]:
             return myl[2]
+          else:
+              print('TIE')
     return None
 def plach():
     choice='wrong'
